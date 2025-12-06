@@ -114,7 +114,10 @@ export function Step4Students({ initialData, onNext, onBack }: Step4Props) {
           </CardContent>
         </Card>
 
-        <div className="sticky bottom-0 bg-white py-6 border-t border-gray-200 flex justify-between gap-4">
+      </div>
+      
+      <div className="sticky bottom-0 left-0 right-0 bg-white py-6 border-t border-gray-200 mt-6">
+        <div className="max-w-2xl mx-auto flex justify-between gap-4">
           <Button type="button" variant="secondary" size="lg" onClick={onBack}>
             ← Back
           </Button>

@@ -43,7 +43,7 @@ export function Step2SchoolDetails({ initialData, onNext, onBack }: Step2Props) 
         Review and update your school details
       </p>
 
-      <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
+      <form id="school-details-form" onSubmit={handleSubmit(onSubmit)} className="space-y-6">
         <Card>
           <CardHeader>
             <CardTitle>Basic Information</CardTitle>
@@ -126,14 +126,21 @@ export function Step2SchoolDetails({ initialData, onNext, onBack }: Step2Props) 
           </CardContent>
         </Card>
 
-        <div className="sticky bottom-0 bg-white py-6 border-t border-gray-200 flex justify-between gap-4 -mx-8 px-8">
+      </form>
+      
+      <div className="sticky bottom-0 left-0 right-0 bg-white py-6 border-t border-gray-200 mt-6">
+        <div className="max-w-2xl mx-auto flex justify-between gap-4">
           <Button type="button" variant="secondary" size="lg" onClick={onBack}>
             ← Back
           </Button>
-          <Button type="submit" size="lg">
+          <Button type="submit" size="lg" form="school-details-form">
             Continue →
           </Button>
         </div>
+      </div>
+    </div>
+  );
+}
       </form>
     </div>
   );
