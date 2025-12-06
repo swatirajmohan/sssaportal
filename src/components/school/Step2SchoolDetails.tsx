@@ -141,8 +141,4 @@ export function Step2SchoolDetails({ initialData, onNext, onBack }: Step2Props) 
     </div>
   );
 }
-      </form>
-    </div>
-  );
-}
 

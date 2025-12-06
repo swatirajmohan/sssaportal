@@ -146,7 +146,6 @@ export function Step3Personnel({ initialData, onNext, onBack }: Step3Props) {
           </Button>
         </div>
       </div>
-    </div>
 
       <PersonnelModal
         isOpen={isModalOpen}
