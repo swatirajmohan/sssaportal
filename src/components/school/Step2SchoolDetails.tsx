@@ -133,7 +133,7 @@ export function Step2SchoolDetails({ initialData, onNext, onBack }: Step2Props) 
           <Button type="button" variant="secondary" size="lg" onClick={onBack}>
             ← Back
           </Button>
-          <Button type="submit" size="lg" form="school-details-form">
+          <Button type="submit" size="lg" form="school-details-form" className="!bg-blue-600 !text-white hover:!bg-blue-700">
             Continue →
           </Button>
         </div>

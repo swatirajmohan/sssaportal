@@ -104,7 +104,7 @@ export function Step5Guardians({ onNext, onBack }: Step5Props) {
             <Button type="button" variant="secondary" size="lg" onClick={handleSkip}>
               Skip for Now
             </Button>
-            <Button type="button" size="lg" onClick={handleComplete}>
+            <Button type="button" size="lg" onClick={handleComplete} className="!bg-blue-600 !text-white hover:!bg-blue-700">
               Complete Setup →
             </Button>
           </div>

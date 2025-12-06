@@ -121,7 +121,7 @@ export function Step4Students({ initialData, onNext, onBack }: Step4Props) {
           <Button type="button" variant="secondary" size="lg" onClick={onBack}>
             ← Back
           </Button>
-          <Button type="button" size="lg" onClick={handleSubmit}>
+          <Button type="button" size="lg" onClick={handleSubmit} className="!bg-blue-600 !text-white hover:!bg-blue-700">
             Continue →
           </Button>
         </div>

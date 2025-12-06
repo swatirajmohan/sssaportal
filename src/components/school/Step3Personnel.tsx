@@ -141,6 +141,7 @@ export function Step3Personnel({ initialData, onNext, onBack }: Step3Props) {
             size="lg"
             onClick={handleSubmit}
             disabled={!principalName || !principalMobile}
+            className="!bg-blue-600 !text-white hover:!bg-blue-700 disabled:!bg-gray-400"
           >
             Continue →
           </Button>
