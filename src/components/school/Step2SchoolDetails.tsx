@@ -3,7 +3,7 @@ import { Input } from '../ui/Input';
 import { Select } from '../ui/Select';
 import { Button } from '../ui/Button';
 import { Card, CardContent, CardHeader, CardTitle } from '../ui/Card';
-import { School } from '../../types/school.types';
+import type { School } from '../../types/school.types';
 import { MapPin } from 'lucide-react';
 
 interface Step2Props {

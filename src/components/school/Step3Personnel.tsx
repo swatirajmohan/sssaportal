@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Button } from '../ui/Button';
 import { Card, CardContent, CardHeader, CardTitle } from '../ui/Card';
-import { Personnel } from '../../types/school.types';
+import type { Personnel } from '../../types/school.types';
 import { UserCircle, Plus, Pencil, X } from 'lucide-react';
 import { PersonnelModal } from './PersonnelModal';
 import { Input } from '../ui/Input';

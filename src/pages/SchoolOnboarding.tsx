@@ -6,7 +6,7 @@ import { Step3Personnel } from '../components/school/Step3Personnel';
 import { Step4Students } from '../components/school/Step4Students';
 import { Step5Guardians } from '../components/school/Step5Guardians';
 import { CompletionScreen } from '../components/school/CompletionScreen';
-import { SchoolRegistrationData, School, Personnel, StudentCount } from '../types/school.types';
+import type { SchoolRegistrationData, School, Personnel, StudentCount } from '../types/school.types';
 
 export function SchoolOnboarding() {
   const [currentStep, setCurrentStep] = useState(1);

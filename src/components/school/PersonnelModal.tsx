@@ -3,7 +3,7 @@ import { X } from 'lucide-react';
 import { Input } from '../ui/Input';
 import { Select } from '../ui/Select';
 import { Button } from '../ui/Button';
-import { Personnel } from '../../types/school.types';
+import type { Personnel } from '../../types/school.types';
 
 interface PersonnelModalProps {
   isOpen: boolean;

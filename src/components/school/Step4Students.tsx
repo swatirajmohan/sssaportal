@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Button } from '../ui/Button';
 import { Card, CardContent } from '../ui/Card';
-import { StudentCount } from '../../types/school.types';
+import type { StudentCount } from '../../types/school.types';
 import { Input } from '../ui/Input';
 import { cn } from '../../lib/utils';
 
