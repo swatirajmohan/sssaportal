@@ -129,7 +129,7 @@ export function Step3Personnel({ initialData, onNext, onBack }: Step3Props) {
           </CardContent>
         </Card>
 
-        <div className="flex justify-between">
+        <div className="sticky bottom-0 bg-white py-6 border-t border-gray-200 flex justify-between gap-4">
           <Button type="button" variant="secondary" size="lg" onClick={onBack}>
             ← Back
           </Button>
